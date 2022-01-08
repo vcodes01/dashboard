@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+/* .container {
+    display: grid;
+    grid-template-areas: 
+    "sidebar content"
+    "main main"
+} */
+
+#dashboard {
+    margin: 2px;
+    width: 160px ;
+    height: 600px;
+    background-color: lightgray;
+    margin: 10px;
+    grid-area: sidebar;
+}
+#dashboard ul {
+    list-style: none;
+}
+#reviews {
+    width: 150px;
+    height: 200px;
+    background-color: lightgray;
+    display: grid;
+}
+#ratings {
+    width: 150px ;
+    height: 200px;
+    background-color: lightgray;
+}
+#analysis {
+    width: 150px;
+    height: 220px;
+    background-color: lightgray;
+}
+#visitors{
+    width: 500px;
+    height: 300px;
+    background-color: lightgray;
+    /* display: inline-block; */
+}
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+/* i tried putting boxes in the right places but nothing was working so i'm turning it in*/
